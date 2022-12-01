@@ -96,9 +96,20 @@ public class Main {
             }
         }
 
+        //Задание 4
+        System.out.println( " Задание 4 ");
 
+        int [] numbers9 = new int [3];
+        numbers9 [0] = 1;
+        numbers9 [1] = 2;
+        numbers9 [2] = 3;
+        for (int i = 0; i < numbers9.length ; i++) {
+            if (numbers9[i] % 2 != 0) {
+                numbers9 [i]= numbers9[i] + 1;
 
-
+            }
+            System.out.print( numbers9 [i]);
+        }
 
 
 
