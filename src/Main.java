@@ -55,12 +55,46 @@ public class Main {
         numbers5 [2] = 9_000_000_000L ;
         numbers5 [3] = 9_500_000_000L ;
         numbers5 [4] = 10_500_000_000L ;
-        System.out.print( numbers5[0]+ " , ");
-        System.out.print( numbers5[1] + " , ");
-        System.out.print(numbers5 [2]+ " , ");
-        System.out.print(numbers5 [3]+ " , ");
-        System.out.print(numbers5 [4]+ " . ");
+       
 
+        //Задание 3
+        System.out.println( " Задание 3 ");
+
+        int [] numbers6 = new int [3];
+        numbers6 [0] = 1;
+        numbers6 [1] = 2;
+        numbers6 [2] = 3;
+        for (int i = numbers6.length - 1; i >= 0 ; i--) {
+            System.out.print(numbers6 [i] );
+            if ( i != 0 ) {
+                System.out.print (" , ");
+            }
+        }
+
+        System.out.println();
+
+        double [] numbers7 = { 1.57, 7.654, 9.986};
+        for (int i = numbers7.length - 1; i >= 0 ; i--) {
+            System.out.print(numbers7[i]);
+            if (i != 0) {
+                System.out.print(" , ");
+            }
+        }
+
+        System.out.println();
+
+        long [] numbers8 = new long [5];
+        numbers8 [0] = 7_000_000_000L ;
+        numbers8 [1] = 8_000_000_000L ;
+        numbers8 [2] = 9_000_000_000L ;
+        numbers8 [3] = 9_500_000_000L ;
+        numbers8 [4] = 10_500_000_000L ;
+        for (int i = numbers8.length - 1; i >= 0 ; i--) {
+            System.out.print(numbers8[i]);
+            if (i != 0) {
+                System.out.print(" , ");
+            }
+        }
 
 
 
